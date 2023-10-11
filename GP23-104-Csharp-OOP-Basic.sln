@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1ClassesAndObjects", "P1ClassesAndObjects\P1ClassesAndObjects.csproj", "{F43E588C-C559-4CE9-B2AE-43746F281FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2Fields", "P2Fields\P2Fields.csproj", "{B2BD5ACD-D4B1-4914-B9FB-49D3CAEA2F9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3Methods", "P3Methods\P3Methods.csproj", "{3BFC2686-2915-4C33-A3EB-2863AEA0C943}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F43E588C-C559-4CE9-B2AE-43746F281FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43E588C-C559-4CE9-B2AE-43746F281FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43E588C-C559-4CE9-B2AE-43746F281FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43E588C-C559-4CE9-B2AE-43746F281FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BD5ACD-D4B1-4914-B9FB-49D3CAEA2F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BD5ACD-D4B1-4914-B9FB-49D3CAEA2F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BD5ACD-D4B1-4914-B9FB-49D3CAEA2F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BD5ACD-D4B1-4914-B9FB-49D3CAEA2F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BFC2686-2915-4C33-A3EB-2863AEA0C943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BFC2686-2915-4C33-A3EB-2863AEA0C943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BFC2686-2915-4C33-A3EB-2863AEA0C943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BFC2686-2915-4C33-A3EB-2863AEA0C943}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
