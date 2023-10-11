@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1ClassesAndObjects", "P1ClassesAndObjects\P1ClassesAndObjects.csproj", "{F43E588C-C559-4CE9-B2AE-43746F281FD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1Classes", "P1Classes\P1Classes.csproj", "{F43E588C-C559-4CE9-B2AE-43746F281FD5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2Fields", "P2Fields\P2Fields.csproj", "{B2BD5ACD-D4B1-4914-B9FB-49D3CAEA2F9B}"
 EndProject
