@@ -1,5 +1,5 @@
 ﻿
-public class person
+public class Person
 {
     public string Name;
 
