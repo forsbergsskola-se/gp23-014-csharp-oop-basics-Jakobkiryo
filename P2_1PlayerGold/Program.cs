@@ -1,4 +1,6 @@
-﻿Player player;
+﻿//Value of item
+
+Player player;
 
 player = new Player();
 
