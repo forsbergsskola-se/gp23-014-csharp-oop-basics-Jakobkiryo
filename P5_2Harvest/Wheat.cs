@@ -1,8 +1,8 @@
 ﻿
 public class Wheat : Grain
 {
-    public void CanBeProcessedToBread()
+    public void ToBread()
     {
-        Console.WriteLine("I can be processed to bread");
+        Console.WriteLine("I can be a bread");
     }
 }

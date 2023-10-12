@@ -14,6 +14,6 @@
         
         wheat.CanGrow();
         wheat.CanBeHarvested();
-        wheat.CanBeProcessedToBread();
+        wheat.ToBread();
     }
 }
