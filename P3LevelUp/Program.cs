@@ -1,12 +1,17 @@
-﻿using Microsoft.VisualBasic;
+﻿Player player = new Player();
 
-Player player = new Player();
+while (true)
+{
+    Console.WriteLine($"How much XP do you want? LVL: {player.Level} XP: {player.Experience}");
+    string input = Console.ReadLine();
 
-Console.WriteLine("How much Experience do you want?");
-
-player.IncreaseExperience();
-player.IncreaseExperience();
-player.IncreaseExperience();
-player.IncreaseExperience();
-player.IncreaseExperience();
-player.IncreaseExperience();
+    if (int.TryParse(input, out int experience))
+    {
+        player.Levelstatus(experience);
+        Console.WriteLine($"Current Level: {player.Level}, Remaining Experience: {player.Experience}\n");
+    }
+    else
+    {
+        Console.WriteLine("Invalid input. Please enter a numeric value.");
+    }
+}

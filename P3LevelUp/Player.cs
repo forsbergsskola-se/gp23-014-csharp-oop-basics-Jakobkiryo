@@ -1,21 +1,18 @@
 ﻿
 public class Player
-
 {
-    public int Level;
-    public int Experience;
+    public int Level = 0;
+    public int Experience = 0;
 
-    public void IncreaseExperience()
+    public void Levelstatus(int XP)
     {
-        Experience++;
-        
-        //level up
-        if (Experience > 4)
+        Experience += XP;
+        while (Experience >=100)
         {
+            Experience -= 100;
             Level++;
-            Experience = 0;
+            Console.WriteLine($"Level Up! LVL: {Level} XP: {Experience}");
+            
         }
-
-        Console.WriteLine($"Lvl:{Level}, Exp: {Experience}");
     }
 }
