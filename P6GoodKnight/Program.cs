@@ -7,9 +7,10 @@
     //Spawns a shield for the knight
     Defender.Shield = new Shield();
     
+    //Attacking Knight attacks Barehanded
     Attacker.Attack(Defender);
     
-    //Spawns a new sword
+    //Attacking Knight Equips a sword
     Attacker.Sword = new Sword();
     Console.WriteLine("Equipping Sword...");
     
