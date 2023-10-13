@@ -1,6 +1,6 @@
 ﻿
 { 
-    //Spawns 2 obejcts/knights one attacker and one defender
+    //Spawns 2 objects/knights one attacker and one defender
     Knight Attacker = new Knight();
     Knight Defender = new Knight();
     
