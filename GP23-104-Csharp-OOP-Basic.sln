@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5_1Father", "P5_1Father\P5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5_2Harvest", "P5_2Harvest\P5_2Harvest.csproj", "{883B40D9-EC22-4B97-824F-0EF078C98280}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6GoodKnight", "P6GoodKnight\P6GoodKnight.csproj", "{E531783C-F029-4EF5-9942-D914C6E50551}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{883B40D9-EC22-4B97-824F-0EF078C98280}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{883B40D9-EC22-4B97-824F-0EF078C98280}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{883B40D9-EC22-4B97-824F-0EF078C98280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E531783C-F029-4EF5-9942-D914C6E50551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E531783C-F029-4EF5-9942-D914C6E50551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E531783C-F029-4EF5-9942-D914C6E50551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E531783C-F029-4EF5-9942-D914C6E50551}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
