@@ -1,24 +1,16 @@
-﻿//instructions
-//   These are the rules of battle:
-// If the attacker has no Sword, he attacks with his bare hands
+﻿
+{
 
-//  If the defender has a Shield, he can fend off the strike
-// Else, he is hit If the attacker has a Sword, he attacks with it
-// If the defender has a Shield, he can fend off the strike, but the Shield is pierced and removed
-// Else, he is wounded
+    Knight Attacker = new Knight();
+    Knight Defender = new Knight();
 
-// Create a project named P6GoodKnight
+    Defender.Shield = new Shield();
+    
+    Attacker.Attack(Defender);
 
-//Create an Shield class
-//Create a Sword class
-//Create a Knight class.
-//With an Shield Field
-//With a Sword Field.
-//With a GetHit Method with a Sword Parameter.
-//With an Attack Method with a Knight Parameter.
-//Create two Knight, attcker and defender.
-//Give defender an Shield
-//Let attacker Attack defender
-//Give attacker a Sword
-//Let attacker Attack defender
-//Let attacker Attack defender
+    Attacker.Sword = new Sword();
+    Console.WriteLine("Equipping Sword...");
+    
+    Attacker.Attack(Defender);
+    Attacker.Attack(Defender);
+}
