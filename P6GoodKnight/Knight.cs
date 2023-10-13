@@ -9,18 +9,18 @@ public class Knight
     {
         if (this.Shield == null)
         {
-            Console.WriteLine("The Knight has no shield equipped and is damaged");
+            Console.WriteLine("The Enemys shield is destroyed and is damaged");
         }
         else
         {
             if (sword == null)
             {
-                Console.WriteLine("Knight Blocks The Attack with his Shield");
+                Console.WriteLine("Enemy Blocks The Attack with his Shield");
             }
             else
             {
                 this.Shield = null;
-                Console.WriteLine("Knights Shield was pierced by the Sword");
+                Console.WriteLine("Enemys Shield was pierced by the Sword");
             }
         }
     }

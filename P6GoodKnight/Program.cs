@@ -1,20 +1,24 @@
 ﻿
-{ 
-    //Spawns 2 objects/knights one attacker and one defender
+{
+    //start of the game
+    Console.WriteLine("RPG Scenario:");
+    
+    //Spawns 2 similar Knights
     Knight Attacker = new Knight();
-    Knight Defender = new Knight();
+    Knight Enemy = new Knight();
     
     //Spawns a shield for the knight
-    Defender.Shield = new Shield();
+    Enemy.Shield = new Shield();
     
     //Attacking Knight attacks Barehanded
-    Attacker.Attack(Defender);
+    Attacker.Attack(Enemy);
     
     //Attacking Knight Equips a sword
     Attacker.Sword = new Sword();
     Console.WriteLine("Equipping Sword...");
     
     //The attacking knight attacks the defender with different outcome
-    Attacker.Attack(Defender);
-    Attacker.Attack(Defender);
+    Attacker.Attack(Enemy);
+    
+    Attacker.Attack(Enemy);
 }
