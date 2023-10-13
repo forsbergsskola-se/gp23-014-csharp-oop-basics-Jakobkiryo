@@ -1,5 +1,5 @@
 ﻿
-
+//Knights action
 public class Knight
 {
     public Sword Sword;
