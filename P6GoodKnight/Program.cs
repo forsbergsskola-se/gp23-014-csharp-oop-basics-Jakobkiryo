@@ -15,7 +15,7 @@
     
     //Attacking Knight Equips a sword
     Attacker.Sword = new Sword();
-    Console.WriteLine("Equipping Sword...");
+    Console.WriteLine("Knight is Equipping Sword...");
     
     //The attacking knight attacks the defender with different outcome
     Attacker.Attack(Enemy);
