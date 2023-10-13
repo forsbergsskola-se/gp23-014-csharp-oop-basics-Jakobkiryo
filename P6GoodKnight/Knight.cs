@@ -29,7 +29,7 @@ public class Knight
     {
         string weapon = this.Sword != null ? "Sword" : "Bare Hands";
         
-        Console.WriteLine($"Knight attacks Enemy with {weapon}");
+        Console.WriteLine($"Knight attacks Enemy with his {weapon}");
 
         target.TakeDamage(this.Sword);
     }
